@@ -1,3 +1,5 @@
+import fizzBuzz from "./fizzBuzz";
+
 function listaFizzBuzz(limite){
     const numeros = Array.from({length:limite}, (_, index) => index + 1);
     return numeros.map((numero) =>{

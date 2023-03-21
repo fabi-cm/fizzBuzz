@@ -1,6 +1,6 @@
 // import sumar from "./sumador";
 import fizzBuzz from "./fizzBuzz";
-import listaFizzBuzz from "/fizzBuzz";
+import listaFizzBuzz from "./listaFizzBuzz";
 
 const form_fizzBuzz = document.querySelector("#form-FizzBuzz");
 const numero = document.querySelector("#valor");

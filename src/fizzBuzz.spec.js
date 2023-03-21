@@ -14,5 +14,8 @@ describe("Es FizzBuzz", () => {
     it("Si el número NO es múltiplo de 3 y 5 se imprime solo el numero", () =>{
       expect(fizzBuzz(4)).toEqual(4);
     });
+    it("Retornar una lista al introducir un numero que sera el limite verificar si es Fizz, Buzz, FizzBuzz", () =>{
+      expect(listaFizzBuzz(15)).toEqual([1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz"]);
+    });
   });
   
