@@ -1,6 +1,9 @@
 function fizzBuzz(numero){
     let resp;
-    if (numero % 3 == 0){
+    if (numero % 3 === 0 && numero % 5 === 0){
+        resp = 'FizzBuzz';
+    }
+    else if (numero % 3 == 0){
         resp = 'Fizz';
     }else if (numero % 5 == 0){
         resp = 'Buzz';
