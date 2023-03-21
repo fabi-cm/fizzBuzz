@@ -1,4 +1,5 @@
 import fizzBuzz from './fizzBuzz.js'
+import listaFizzBuzz from './listaFizzBuzz.js';
 
 describe("Es FizzBuzz", () => {
     it("Si el número es 3 o múltiplo de 3 se imprime Fizz", () => {
@@ -9,6 +10,9 @@ describe("Es FizzBuzz", () => {
       });
     it("Si el número es múltiplo de 3 y 5 se imprime FizzBuzz", () =>{
         expect(fizzBuzz(30)).toEqual('FizzBuzz');
+    });
+    it("Si el número NO es múltiplo de 3 y 5 se imprime solo el numero", () =>{
+      expect(fizzBuzz(4)).toEqual(4);
     });
   });
   
